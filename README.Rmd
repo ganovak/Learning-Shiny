@@ -19,6 +19,7 @@ I am on an adventure to learn to code Shiny apps (applications based in R functi
 > **Output**: Barplot of PMF of binomial distribution with user specified parameters  
 
 ```{r, echo = FALSE}
-knitr::include_app("https://ganovak.shinyapps.io/binomdemo/")
+knitr::include_app("https://ganovak.shinyapps.io/binomdemo/",
+                   height = "3000px")
 ```
 
