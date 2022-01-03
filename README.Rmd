@@ -1,3 +1,6 @@
+---
+output: github_document
+---
 
 # Learning Shiny
 
@@ -5,18 +8,17 @@ I am on an adventure to learn to code Shiny apps (applications based in R functi
 
 ## My first app: binomdemo
 
-> **Binomial Distribution Demonstration App**
-short name: binomdemo
-URL: https://ganovak.shinyapps.io/binomdemo/
-Function:
-  Visually demonstrate effect of parameters in binomial distribution
-Input:
-  n: integer in [0,100] NOTE: upper bound is arbitrary
-  p: real in [0,1]
-Output:
-  Barplot of PMF of binomial distribution with user specified parameters
+> **Binomial Distribution Demonstration App** 
+>  
+> **short name**: binomdemo  
+> **URL**: https://ganovak.shinyapps.io/binomdemo/  
+> **Function**: Visually demonstrate effect of parameters in binomial distribution  
+> **Input**:  
+>   n: integer in [0,100] NOTE: upper bound is arbitrary  
+>   p: real in [0,1]  
+> **Output**: Barplot of PMF of binomial distribution with user specified parameters  
 
-```{r}
+```{r, echo = FALSE}
 knitr::include_app("https://ganovak.shinyapps.io/binomdemo/")
 ```
 
