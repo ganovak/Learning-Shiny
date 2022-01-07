@@ -57,7 +57,7 @@ server <- function(input, output) {
             barplot(pmf,
                     names.arg = 0:input$n,
                     main = paste0("Binom(n = ", input$n, ", p = ", input$p, ")"),
-                    xlab = "Number of sucesses",
+                    xlab = "Number of successes",
                     ylab = "Probability of observation")
         }
     })
