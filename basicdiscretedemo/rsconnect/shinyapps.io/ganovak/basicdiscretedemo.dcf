@@ -5,7 +5,7 @@ account: ganovak
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 5395127
-bundleId: 5434567
+bundleId: 5445314
 url: https://ganovak.shinyapps.io/basicdiscretedemo/
-when: 1641338968.72579
-lastSyncTime: 1641338968.72579
+when: 1641583612.55813
+lastSyncTime: 1641583612.55813

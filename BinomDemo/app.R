@@ -8,6 +8,7 @@
 # Output:
 #   Barplot of PMF of binomial distribution with user specified parameters
 #
+# rsconnect::deployApp("BinomDemo")
 # G Novak 2022-01-03
 
 library(shiny)

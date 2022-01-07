@@ -14,6 +14,7 @@
 # Output:
 #   Barplot of PMF of specified distribution with user specified parameters
 #
+# rsconnect::deployApp("basicdiscretedemo")
 # G Novak 2022-01-04
 
 library(shiny)
@@ -50,10 +51,10 @@ ui <- fluidPage(
                      br(),
                      h3("Do discrete distributions need discrete parameters?"),
                      p("Not necessarily. Each parameter has its own definition for legal
-                       values. The discrete descignation specifically describes the support."),
+                       values. The discrete designation specifically describes the support."),
                      br(),
                      h3("What is a probability mass function (PMF)?"),
-                     p("A function that assigns a probability of occurance or observation
+                     p("A function that assigns a probability of occurrence or observation
                      to each element of the support.")
                      ),
             tabPanel("Discrete Uniform",
@@ -131,7 +132,7 @@ server <- function(input, output) {
             barplot(pmf,
                     names.arg = (input$ab[1]-1):(input$ab[2]+1),
                     main = paste0("Unif(A = ", input$ab[1], ", B = ", input$ab[2], ")"),
-                    xlab = "Number of occurances",
+                    xlab = "Number of occurrences",
                     ylab = "Probability of observation")
         }
     })
@@ -152,7 +153,7 @@ server <- function(input, output) {
             barplot(pmf,
                     names.arg = 0:input$n,
                     main = paste0("Binom(n = ", input$n, ", p = ", input$p, ")"),
-                    xlab = "Number of sucesses",
+                    xlab = "Number of successes",
                     ylab = "Probability of observation")
         }
     })
@@ -183,7 +184,7 @@ server <- function(input, output) {
             barplot(pmf,
                     names.arg = 0:kmax,
                     main = paste0("Pois(λ = ", input$lambda, ")"),
-                    xlab = "Number of occurances",
+                    xlab = "Number of occurrences",
                     ylab = "Probability of observation")
         }
     })
