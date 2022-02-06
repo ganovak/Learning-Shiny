@@ -1,0 +1,11 @@
+name: cltdemo
+title:
+username:
+account: ganovak
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5591346
+bundleId: 5549250
+url: https://ganovak.shinyapps.io/cltdemo/
+when: 1644165501.87921
+lastSyncTime: 1644165501.87921

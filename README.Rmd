@@ -10,9 +10,32 @@ I am on an adventure to learn to code Shiny apps (applications based in R functi
 
 * Continuous distribution app using dynamic distribution charactaristics
 * `q*()`, `p*()`, `d*()` demonstration
-* CLT demonstration
 
 # Progress
+
+## User controlled simulation: Central Limit Theorem Demonstration for Means
+
+> **short name**: cltdemo 
+> **URL**: [ganovak.shinyapps.io/cltdemo](https://ganovak.shinyapps.io/cltdemo/)   
+> **Objective**: Visually demonstrate the implications of the central limit theorem for means by allowing user control of various parameters
+> **Input**: 
+>   Population distribution: one of uniform, normal, or skewed (chi-squared) with randomized parameters
+>   n: integer in (0, ∞)
+> **Output**: 
+>   Plot of population distribution and numerical summaries along with user controlled, gradual CLT simulation with reactive plot of appropriate numerical summaries
+
+### New features
+
+* Dynamic disabling of UI elements
+* Custom layout
+* Differentiating use of eventReact and eventObserve
+* Using reactive values
+* Updating objects throught program
+* Delayed response
+
+```{r, echo = FALSE}
+knitr::include_app("https://ganovak.shinyapps.io/basicdiscretedemo/")
+```
 
 ## An extension with increased complexity: Basic Discrete Distribution Demo
 
